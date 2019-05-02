@@ -1,8 +1,8 @@
 .navbar{
 	background-color: #10263F ;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
+	position: fixed;
+	width: 100%;
+	z-index: 9;
 }
 .top{
 	background-image: url(img/legal.jpg);
@@ -32,4 +32,8 @@
 	padding-top: 55px;
 	padding-bottom: 55px;
 
+}
+
+.textos article {
+	margin-bottom: 50px;
 }
