@@ -3,6 +3,7 @@
 	position: fixed;
 	width: 100%;
 	z-index: 9;
+	font-family: 'Roboto', sans-serif;
 }
 .top{
 	background-image: url(img/legal.jpg);
@@ -13,10 +14,19 @@
 	color: #ffffff;
 	padding-top: 300px;
 	padding-bottom: 300px;
+	font-family: 'Roboto';
+}
+.top h1{
+	font-family: 'Roboto', sans-serif;
+
 }
 .noticias{
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	font-family: 'Fira Sans', sans-serif;
+}
+.noticias h1 {
+	color: #10263F;
 }
 .naosei{
 	background-image: url(img/mercob.jpg);
@@ -25,15 +35,39 @@
 	background-size: cover;
 	background-attachment: fixed;
 	color: #ffffff;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 300px;
+	padding-bottom: 300px;
+	font-family: 'Roboto', sans-serif;
+
 }
 .textos{
 	padding-top: 55px;
 	padding-bottom: 55px;
+	font-family: 'Roboto', sans-serif;
 
 }
-
 .textos article {
 	margin-bottom: 50px;
+} 
+.textos h1 a {
+	text-decoration: none;
+	color: #10263F;
+}
+.textos p a {
+	text-decoration: none;
+	color: #000000;
+}
+.zom{
+	overflow: hidden;
+}
+.zom img{
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s
+}
+.zom:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
