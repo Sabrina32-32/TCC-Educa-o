@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 .navbar{
 	background-color: #10263F ;
 	position: fixed;
 	width: 100%;
 	z-index: 9;
-	font-family: 'Roboto', sans-serif;
 }
 .top{
 	background-image: url(img/legal.jpg);
@@ -14,7 +17,7 @@
 	color: #ffffff;
 	padding-top: 300px;
 	padding-bottom: 300px;
-	font-family: 'Roboto';
+
 }
 .top h1{
 	font-family: 'Roboto', sans-serif;
@@ -23,7 +26,6 @@
 .noticias{
 	padding-top: 300px;
 	padding-bottom: 300px;
-	font-family: 'Fira Sans', sans-serif;
 }
 .noticias h1 {
 	color: #10263F;
@@ -37,13 +39,12 @@
 	color: #ffffff;
 	padding-top: 300px;
 	padding-bottom: 300px;
-	font-family: 'Roboto', sans-serif;
 
 }
 .textos{
 	padding-top: 55px;
 	padding-bottom: 55px;
-	font-family: 'Roboto', sans-serif;
+
 
 }
 .textos article {
