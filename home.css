@@ -1,8 +1,8 @@
 body{
 	font-family: 'Open Sans', sans-serif;
-
+	font-size: 1rem;
 }
-.navbar{
+.navbar{ 
 	background-color: #10263F ;
 	position: fixed;
 	z-index: 9;
@@ -20,11 +20,12 @@ body{
 
 }
 .noticias{
-	padding-top: 300px;
-	padding-bottom: 300px;
+	padding-top: 55px;
+	padding-bottom: 55px;
 }
 .noticias h1 {
 	color: #10263F;
+	padding-bottom: 30px;
 }
 .naosei{
 	background-image: url(img/mercob.jpg);
@@ -65,4 +66,23 @@ body{
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+}
+.cabecalho{
+	padding-top: 60px;
+}
+.cabecalho h4{
+	color: #10263F;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.linha{
+	margin-top: 30px;
+	border-top: 1px solid #10263F;
+}
+.date{
+	color: #6E9AB1;
+}
+.art{
+	margin-top: 40px;
+	text-align: center;
 }
