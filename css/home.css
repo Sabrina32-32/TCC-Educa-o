@@ -91,3 +91,14 @@ body{
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
+#tab{
+  width: 200px;
+}
+#tabela{
+	width: 100%;
+	font-size: 15px;
+}
+.table{
+	border-color: black;
+	width: 900px;
+}
