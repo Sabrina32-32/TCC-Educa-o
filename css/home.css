@@ -102,3 +102,6 @@ body{
 	border-color: black;
 	width: 900px;
 }
+ul.none {
+	list-style-type: none;
+	}
